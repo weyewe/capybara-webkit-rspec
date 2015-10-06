@@ -57,9 +57,10 @@ group :development, :test do
 end
 
 group :test do
-  gem "capybara-webkit"
+  
   gem "faker", "~> 1.1.2"
   gem "capybara", "~> 2.1.0"
+  gem "capybara-webkit"
   gem "database_cleaner", "~> 1.0.1"
   gem "launchy", "~> 2.3.0"
   gem "shoulda-matchers", "~> 2.2.0"
